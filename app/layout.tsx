@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import FaviconIcon from "../public/FaisalDilshadFaviconIcon.jpg";
 
 import "./globals.css";
 import { ThemeProvider } from "./provider";
@@ -19,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/jsm-logo.png" sizes="any" />
+        <link rel="icon" href="/FaisalDilshadFaviconIcon.jpg" sizes="any" />
       </head>
       <body className={inter.className}>
         <ThemeProvider

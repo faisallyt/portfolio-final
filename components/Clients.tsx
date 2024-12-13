@@ -47,7 +47,7 @@ const Clients = () => {
     //     </div>
     //   </div>
     // </section>
-    <section id="testimonials">
+    <section id="testimonials" className="md:pt-[10rem] md:pb-[47rem]">
       <MacbookScroll src="" />
     </section>
   );
