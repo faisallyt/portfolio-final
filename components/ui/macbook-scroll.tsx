@@ -27,7 +27,7 @@ import Image, { StaticImageData } from "next/image";
 import ScreenBack from "../../public/ScreenBack-Meetup.jpg";
 
 export const MacbookScroll = ({
-  src,
+  src = ScreenBack,
   showGradient,
   title,
   badge,
@@ -124,7 +124,7 @@ export const Lid = ({
   scaleY,
   rotate,
   translate,
-  src,
+  src = ScreenBack,
 }: {
   scaleX: MotionValue<number>;
   scaleY: MotionValue<number>;
