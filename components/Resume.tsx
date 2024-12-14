@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { ContainerScroll } from "./ui/Container-scroll-animation";
 import { HoverBorderGradient } from "./ui/Hover-border-gradient";
