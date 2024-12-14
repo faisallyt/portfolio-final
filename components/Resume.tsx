@@ -8,7 +8,7 @@ import ResumeSS from "../public/Resume-SS.png";
 
 const Resume = () => {
   return (
-    <div className="flex flex-col md:flex-row md:justify-between ">
+    <div className="flex flex-col md:flex-row md:justify-between " id="resume">
       <div>
         <ContainerScroll titleComponent={"Checkout my "}>
           <ResumeImage />
