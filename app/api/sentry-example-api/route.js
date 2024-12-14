@@ -1,9 +1,8 @@
-// import { NextResponse } from "next/server";
+// app/api/sentry-example-api/route.js
 
-// export const dynamic = "force-dynamic";
+import { NextResponse } from "next/server";
 
-// // A faulty API route to test Sentry's error monitoring
-// export function GET() {
-//   throw new Error("Sentry Example API Route Error");
-//   return NextResponse.json({ data: "Testing Sentry Error..." });
-// }
+export function GET() {
+  throw new Error("Sentry Example API Route Error");
+  return NextResponse.json({ data: "Testing Sentry Error..." });
+}
