@@ -27,8 +27,10 @@ const Footer = () => {
         <a
           href="mailto:faisaldilshadwork@gmail.com"
           onClick={(e) => {
-            window.location.href = "mailto:faisaldilshadwork@gmail.com";
             e.preventDefault(); // Prevent default link behavior
+            if (typeof window !== "undefined") {
+              window.location.href = "mailto:faisaldilshadwork@gmail.com";
+            }
           }}>
           <MagicButton
             title="Let's get in touch"
